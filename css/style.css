@@ -1,0 +1,109 @@
+body {
+    color: #2B2727;
+    font-family: 'Belleza', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Spectral', serif;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+    line-height: 1.6rem
+}
+
+hr.bar{
+    max-width: 69px;
+    border: 2px solid #2B2727;
+    margin-left:0;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.parallax-container {
+    min-height: 69vh;
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.img-feature-1 {
+    object-fit: cover;
+    width: 100%;
+}
+
+.img-feature-2 {
+    object-fit: cover;
+    width: 100%;
+}
+
+.parallax-container-2 {
+    min-height: 69vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.parallax-container-2 a {
+    color: #fff;
+}
+
+.img-portfolio {
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact-section {
+    min-height: 69vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url('../img/image-footer-cupcakes.jpg');
+}
+
+footer {
+    padding: 1.5rem 3rem;
+    background-color: #3C3434;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    color: #eee;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding-top: .69rem;
+    }
+    .parallax-container {
+        min-height: 69vh;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
+    .contact-section{
+        background-position: 50% 69px;
+    }
+    .parallax-container-2 h4{
+        text-shadow: 0 1px 9px rgba(0,0,0,.4);
+    }
+}
